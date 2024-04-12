@@ -8,6 +8,22 @@ export const FormVagasEstilo = styled.form`
   border-radius: 12px;
   margin-top: 40px;
 
+  @media (max-width: 768px) {
+    display: block;
+    text-align: center;
+
+    input {
+      width: 100%;
+      font-size: 18px;
+      border-radius: 8px;
+    }
+
+    button {
+      width: 100%;
+      margin-left: 0px;
+    }
+  }
+
   button {
     background-color: var(--cor-principal);
     border: 1px solid var(--cor-principal);
@@ -17,6 +33,12 @@ export const FormVagasEstilo = styled.form`
     color: var(--cor-secundaria);
     margin-left: 8px;
     cursor: pointer;
+    border-radius: 8px;
+
+    @media (max-width: 768px) {
+      margin: 0px;
+      margin-top: 8px;
+    }
   }
 
   input {

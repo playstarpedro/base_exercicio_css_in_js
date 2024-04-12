@@ -11,7 +11,6 @@ export const VagaEstilo = styled.li`
 
   h3 {
     font-weight: bold;
-    margin-bottom: 16px;
   }
 
   a {

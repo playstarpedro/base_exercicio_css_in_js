@@ -31,10 +31,8 @@ export const HeroEstilo = styled.form`
   }
 
   @media (max-width: 768px) {
-    form {
-      height: auto;
-      padding: 24px 0;
-    }
+    height: auto;
+    padding: 24px 0;
 
     h2 {
       font-size: 32px;

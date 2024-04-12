@@ -7,14 +7,22 @@ export const ListaVagasEstilo = styled.div`
     column-gap: 16px;
     row-gap: 16px;
     margin-top: 32px;
+
+    @media (max-width: 1024px) {
+      display: block;
+
+      li {
+        margin-bottom: 16px;
+      }
+
+      li li {
+        margin-bottom: 0;
+      }
+      }
   }
 
   ul ul {
-    display: block;s
+    display: block;
   }
-
-  ul (max-width: 768px) {
-      grid-template-columns: 1fr;
-    }
   }
 `
